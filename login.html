@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      background-image: url(imag-01.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      align-items: center;
+      display: flex;
+        
+    }
+    .l-container {
+      width: 350px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 2px 4px 18px
+      rgba(0, 0, 0, 0.1);
+      text-align: center;
+      margin: auto;
+      position: relative;
+      
+    }
+    .l-container h2 {
+      margin-bottom: 20px;
+    }
+    .l-container input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px -10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      align-items: none;
+      justify-content: center;
+      padding: 10px 0;
+      padding-bottom: 12px;
+      margin: 5px;
+      border-radius: 5px;
+      border: none;
+       
+    }
+    .google-btn {
+      background-color: #4285f7;
+      border: none;
+      border-radius: 5px;
+      color: white;
+    }
+    .btn:hover {
+      background-color: white;
+      color:  #4285f7;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    .btn img {
+      width: 20px;
+      height: 20x;
+      margin-right: 10px;
+    }
+    .x-btn {
+      background-color: #1da1f2;
+      border: none;
+      border-radius: 5px;
+      color: white; 
+    }
+    .facebuk-btn {
+      background-color: #4267b2;
+      border: none;
+      border-radius: 5px;
+      color: white;
+    }
+    .ig-btn {
+      background-color: #e4405f;
+      border: none;
+      border-radius: 5px;
+      color: white;
+    }
+    .dvder {
+      margin: 20px 0;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="l-container">
+      <h2>Login</h2>
+      <form>
+        <input type="text"
+        placeholder="Username or Email required">
+        <input type="password" placeholder="Password required">
+        <button  class="btn google-btn">  <img src="google.png" 
+          alt="Googl Icon">
+         Sign in with Google
+        </button>
+      </form>
+      <div class="dvder"> Or sign in with:</div>
+      <button class="btn x-btn">
+        <img src="twitter (1).png" alt="">Sign in with X 
+      </button>
+      <button class="btn facebuk-btn"><img src="facebook (1).png" alt="facebook Icon"> Sign in with facebook</button>
+      <button class="btn ig-btn"><img src="instagram.png" alt="instagram Icon"> Sign in with isntagram</button>
+    </div>
+</body>
+</html>
